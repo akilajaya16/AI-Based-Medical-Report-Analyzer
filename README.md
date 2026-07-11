@@ -50,11 +50,47 @@ Medical reports contain many complex medical terms and values that are difficult
 ### AI Technologies
 - Machine Learning
 - Natural Language Processing (NLP)
+- ## Database Design
+
+The AI-Based Medical Report Analyzer uses a MySQL database to store user information, uploaded medical reports, and AI-generated analysis results securely.
+
+### User Table
+
+* User_ID (Primary Key)
+* Name
+* Email
+* Password
+
+### Medical_Report Table
+
+* Report_ID (Primary Key)
+* User_ID (Foreign Key)
+* Report_Name
+* Upload_Date
+
+### Analysis_Result Table
+
+* Result_ID (Primary Key)
+* Report_ID (Foreign Key)
+* Analysis_Details
+* Generated_Date
+
 
 ## Future Enhancements
 - Support for different medical report formats.
 - Integration with healthcare applications.
 - Improved AI-based prediction features.
+- ## Advantages
+
+* Fast and accurate medical report analysis.
+* Reduces manual effort in interpreting reports.
+* Provides easy-to-understand medical report summaries.
+* Saves time for both patients and healthcare professionals.
+* User-friendly interface with simple report upload.
+* Secure storage of medical reports and analysis results.
+* Supports AI-based decision assistance.
+* Can be extended to support multiple report formats and hospitals.
+
 
 ## Conclusion
 The AI-Based Medical Report Analyzer provides an effective way to understand medical reports using Artificial Intelligence. It helps users get simplified medical information and improves the accessibility of healthcare data.
