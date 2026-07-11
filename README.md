@@ -74,6 +74,23 @@ The AI-Based Medical Report Analyzer uses a MySQL database to store user informa
 * Report_ID (Foreign Key)
 * Analysis_Details
 * Generated_Date
+ ## System Architecture
+
+The following diagram shows the overall architecture of the AI-Based Medical Report Analyzer system.
+
+![System Architecture](system%20architecture.png)
+
+## ER Diagram
+
+The following ER Diagram represents the relationship between User, Medical Report, and Analysis Result.
+
+![ER Diagram](er%20diagram.png)
+
+## Flow Chart
+
+The following flow chart illustrates the workflow of the AI-Based Medical Report Analyzer.
+
+![Flow Chart](flow%20chart.png) 
 
 
 ## Future Enhancements
